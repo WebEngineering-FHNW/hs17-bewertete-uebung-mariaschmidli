@@ -2,9 +2,9 @@
 
 ## Commit Proposal
 
-Matriculation Number: <to be filled by student>
+Matriculation Number: 15-721-871
 
-Project idea short description: 
+Project idea short description: socrative (project proposal by Mr. König)
 
 
 ## Project confirmation
@@ -22,7 +22,7 @@ Project description:      (if other than `/index.html`)
 
 External contributions:
 
-Other comments: 
+Other comments: no
 
 I'm particular proud of:
 
