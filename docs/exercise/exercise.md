@@ -9,7 +9,7 @@ Project idea short description: socrative (project proposal by Mr. König)
 
 ## Project confirmation
 
-< to be filled by lecturer>
+confirmed.
 
 
 ## Project delivery <to be filled by student>
