@@ -1,6 +1,6 @@
 package mvc
 
-class BookingController {
+class BookingController { // brauchen wir wohl nicht mehr ...
 
     static scaffold = Booking
 
