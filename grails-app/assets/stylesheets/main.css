@@ -174,7 +174,7 @@ img {
 }
 
 .nav li.dropdown.open ul.dropdown-menu {
-    background-color: #1b758f;
+    background-color: #368aba;
 }
 
 /* CREATE/EDIT FORMS AND SHOW PAGES */
@@ -573,7 +573,7 @@ a.skip {
 
 
 .grails-image-container {
-    background: #368aba no-repeat 50% 30%;
+    background: #d4d3ce no-repeat 50% 30%;
     margin-bottom: 20px;
     color: white;
     height:550px;
