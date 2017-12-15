@@ -509,9 +509,10 @@ h8 {
 
 .row {
     position: relative;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 5%
+    max-width: 100%;
+    margin: 0px;
+    padding: 0 5%;
+    background-color: #96d6c0;
 }
 
 .row:before, .row:after {
@@ -569,12 +570,12 @@ h8 {
     border: 0 none;
     border-top: 1px solid #EEE;
     margin: 0 5%;
-    margin-top: 40px
+    margin-top: 50px
 }
 
 #content hr.divider {
     margin: 0;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 30px
 }
 
@@ -589,16 +590,19 @@ h8 {
 
 #content .colset-2-its > h1 {
     padding-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 0
 }
 
 #content .colset-2-its > p {
     margin-top: 0;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     text-align: center;
     color: #222;
-    font-size: 15px
+    font-size: 15px;
+
+
+
 }
 
 #content .colset-2-its .col1, #content .colset-2-its .col2 {
@@ -1053,6 +1057,23 @@ html, body, .st-container, .st-pusher, .st-content {
 }
 
 .presentations .urls {
+}
+
+.image{
+    margin-top: 160px;
+    position: relative;
+
+
+
+
+
+}
+
+grails-image-container{
+    height: 200px;
+    align-items: center;
+
+
 }
 
 @media screen and (max-width: 767px) {

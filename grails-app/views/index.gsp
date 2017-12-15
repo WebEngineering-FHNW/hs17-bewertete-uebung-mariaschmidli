@@ -50,13 +50,24 @@
             <asset:image src="socrative-logo-hires.jpg" class="grails-logo"/>
         </div>
     </div>
+    <div class="image" role="presentation">
+        <div class="grails-image-container">
+            <asset:image src="Image_Working.jpg" class="socrative_image"/>
+        </div>
+
+    </div>
 
     <div id="content" role="main">
         <section class="row colset-2-its">
             <h1>Welcome to Socrative-Light</h1>
 
             <p>
-                Congratulations, you have successfully started Socrative-Light!
+
+
+                Socrative is your classroom app for fun, effective classroom engagement. No matter where or how you teach, Socrative allows you to instantly connect with students as learning happens.
+
+                Quickly assess students with prepared activities or on-the-fly questions to get immediate insight into student understanding. Then use auto-populated results to determine the best instructional approach to most effectively drive learning.
+
             </p>
 
             <div id="controllers" role="navigation">
