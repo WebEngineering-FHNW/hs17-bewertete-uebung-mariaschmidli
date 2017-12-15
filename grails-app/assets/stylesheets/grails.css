@@ -32,10 +32,10 @@ pre {
     padding-right: 110px;
 }
 .navbar .container {
-    margin: 10px;
+    margin: 14px;
 }
 .navbar-default a {
-    color: #ffffff !important;
+    color: black !important;
     font-size: 19px !important;
     text-decoration: none;
 }
@@ -508,11 +508,13 @@ h8 {
 }
 
 .row {
+
     position: relative;
     max-width: 100%;
     margin: 0px;
-    padding: 0 5%;
-    background-color: #96d6c0;
+    padding: 0 20%;
+    background-color: #e3e3e3;
+    margin-top: -50px;
 }
 
 .row:before, .row:after {
@@ -1060,21 +1062,17 @@ html, body, .st-container, .st-pusher, .st-content {
 }
 
 .image{
-    margin-top: 160px;
-    position: relative;
 
 
+    height: 80%;
 
 
 
 }
 
-grails-image-container{
-    height: 200px;
-    align-items: center;
 
 
-}
+
 
 @media screen and (max-width: 767px) {
     .presentations .img.screenshot, .video .metadata {

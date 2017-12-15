@@ -52,7 +52,7 @@
     </div>
     <div class="image" role="presentation">
         <div class="grails-image-container">
-            <asset:image src="Image_Working.jpg" class="socrative_image"/>
+            <asset:image src="Wprking_Image.jpg" class="socrative_image"/>
         </div>
 
     </div>
