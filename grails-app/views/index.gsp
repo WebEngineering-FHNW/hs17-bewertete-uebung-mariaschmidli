@@ -72,8 +72,11 @@
 
             <div id="controllers" role="navigation">
 
+               <form action="/lecture/index" method="post"> <input type="submit" value="Lecture" class="btn-lg" /></form>
+                <form action="students/index" method="post"> <input type="submit" value="Sudent" class="btn-lg"/></form>
 
                 <h2>Available Controllers:</h2>
+
                 <ul>
                 <!-- todo: uncomment link to booking controller search action -->
                 <!--
