@@ -64,33 +64,39 @@
             <p>
 
 
+
                 Socrative is your classroom app for fun, effective classroom engagement. No matter where or how you teach, Socrative allows you to instantly connect with students as learning happens.
 
                 Quickly assess students with prepared activities or on-the-fly questions to get immediate insight into student understanding. Then use auto-populated results to determine the best instructional approach to most effectively drive learning.
 
             </p>
 
+
             <div id="controllers" role="navigation">
 
-               <form action="/lecture/index" method="post"> <input type="submit" value="Lecture" class="btn-lg" /></form>
-                <form action="students/index" method="post"> <input type="submit" value="Sudent" class="btn-lg"/></form>
 
-                <h2>Available Controllers:</h2>
 
                 <ul>
-                <!-- todo: uncomment link to booking controller search action -->
-                <!--
-                    <li class="controller">
-                        <g:link controller="booking" action="search">Booking search page</g:link>
-                    </li>
-                  -->
-
-                    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-                        <li class="controller">
-                            <g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>
-                        </li>
-                    </g:each>
+                <g:link controller="lecture" action="lecture/index" class="btn-lg">Lecture</g:link>
+                <g:link controller="students" action="students/index" class="btn-lg">Students</g:link>
                 </ul>
+
+
+
+                  %{--<ul>--}%
+                %{--<!-- todo: uncomment link to booking controller search action -->--}%
+                %{--<!----}%
+                 %{--<!--   <li class="controller">--}%
+                       %{--<g:link controller="booking" action="search">Booking search page</g:link>--}%
+                    %{--</li>--}%
+                  %{---->--}%
+
+                    %{--<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">--}%
+                        %{--<li class="controller">--}%
+                            %{--<g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>--}%
+                        %{--</li>--}%
+                    %{--</g:each>--}%
+                %{--</ul>--}%
             </div>
         </section>
     </div>
