@@ -685,7 +685,8 @@ h8 {
 }
 
 #content .first-event-row {
-    padding-top: 30px;
+    padding-top: 90px;
+    background-color: #368aba;
 }
 
 #content .last-event-row {
