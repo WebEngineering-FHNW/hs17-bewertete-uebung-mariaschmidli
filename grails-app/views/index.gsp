@@ -78,7 +78,7 @@
 
                 <ul>
 
-                <g:link controller="lecture" action="lecture/index" class="btn-lg">Lecture</g:link>
+                <g:link controller="lecture" action="questionnair" class="btn-lg">Lecture</g:link>
                 <g:link controller="students" action="students/index" class="btn-lg">Students</g:link>
 
 

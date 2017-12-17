@@ -4,6 +4,6 @@ class SpoofController {
 
     def index() {
 
-       render(view:'index.gsp')
+       render(view:'questionnair.gsp')
     }
 }
