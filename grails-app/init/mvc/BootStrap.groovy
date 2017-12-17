@@ -14,7 +14,7 @@ class BootStrap {
         def answer3 = new Answer(text: "Sologner").save()
 
         def question1 = new Questions(text: "Who was the first man to fly around the earth " +
-                "with a spaceship?", answer: answer1
+                "with a spaceship?", answer: answer1)
 
 
         Room windowRoom = save(new Room(name: "1.333", max: 32))

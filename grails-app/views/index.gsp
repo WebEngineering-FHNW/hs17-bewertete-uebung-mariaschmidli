@@ -8,7 +8,7 @@
 </head>
 <body>
     <content tag="nav">
-        <li class="dropdown">
+       %{-- <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Application Status <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="#">Environment: ${grails.util.Environment.current.name}</a></li>
@@ -42,7 +42,7 @@
                     <li><a href="#">${plugin.name} - ${plugin.version}</a></li>
                 </g:each>
             </ul>
-        </li>
+        </li>--}%
     </content>
 
     <div class="svg" role="presentation">
@@ -79,27 +79,11 @@
                 <ul>
 
                 <g:link controller="lecture" action="questionnair" class="btn-lg">Lecture</g:link>
-                <g:link controller="students" action="Answerpage1" class="btn-lg">Students</g:link>
+                <g:link controller="students" action="Answerpage" class="btn-lg">Students</g:link>
+                <g:link controller="report" action="report" class="btn-lg">Report</g:link>
+                    <ul/>
 
 
-<               <ul/>
-
-
-                  %{--<ul>--}%
-                %{--<!-- todo: uncomment link to booking controller search action -->--}%
-                %{--<!----}%
-                 %{--<!--   <li class="controller">--}%
-                       %{--<g:link controller="booking" action="search">Booking search page</g:link>--}%
-                    %{--</li>--}%
-                  %{---->--}%
-
-                    %{--<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">--}%
-                        %{--<li class="controller">--}%
-                            %{--<g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>--}%
-                        %{--</li>--}%
-                    %{--</g:each>--}%
-                %{--</ul>--}%
-            </div>
         </section>
     </div>
 

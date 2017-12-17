@@ -1,10 +1,11 @@
 package mvc
 
 class StudentsController {
-    static scaffold = Questionnair
+    static scaffold = Questions
 
-    def Answerpage1() {
+    def Answerpage() {
 
 
     }
+
 }

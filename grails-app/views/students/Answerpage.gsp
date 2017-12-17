@@ -15,14 +15,14 @@
 <div id="main-content">
     <div>
         <div class="quiz-progress-container">
-            <span class="quiz-progress-text">1/3</span>
+            <span class="key-alttext ">1/3</span>
         </div>
     </div>
     <div class="question-container">
         <div class="question-header">
-            <pre class="question-text">
+            <h1 class="h1">
                 Who was the first man to fly around the earth with a spaceship?
-            </pre>
+            </h1>
         </div>
     </div>
     <div class="answer-container">
@@ -50,14 +50,10 @@
         </div>
     </div>
     <div class="nav-container">
-        <button id="submit-button" class="btn" disabled="">Submit</button>
+
+        <g:link controller="students" action="answerpage2" class="btn-lg">Next</g:link>
     </div>
 </div>
-
-
-
-
-
 
 
 </body>
