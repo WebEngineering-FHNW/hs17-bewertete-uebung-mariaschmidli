@@ -12,6 +12,9 @@
 </head>
 
 <body>
+
+%{--Link to next page --}%
+
 <g:link controller="students" action="answerpage3" class="btn-lg">Next</g:link>
 </body>
 </html>

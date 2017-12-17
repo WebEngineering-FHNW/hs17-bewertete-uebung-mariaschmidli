@@ -3,7 +3,9 @@ package mvc
 class UrlMappings {
 
     static mappings = {
-       // "/"(controller:"lecture")
+
+      /*  maps the links together */
+
          "/questionnairs"(resources: "questionnair")
         "/$controller/$action?/$id?(.$format)?"{
             constraints {
