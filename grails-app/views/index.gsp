@@ -4,10 +4,16 @@
     <meta name="layout" content="main"/>
     <title>Welcome to Socrative</title>
 
+    %{--Favicon Adjustment--}%
+
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
+
 </head>
 <body>
 <content tag="nav">
+
+   %{-- Create Dropdown "Profile" --}%
+
     <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
            aria-haspopup="true" aria-expanded="false">Profile <span class="caret"></span></a>
@@ -20,6 +26,9 @@
             <li><a href="#">About Us</a></li>
         </ul>
     </li>
+
+    %{-- Create Dropdown "Account" --}%
+
     <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
            aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
@@ -31,17 +40,23 @@
 
 </content>
 
+%{--Logo Container--}%
+
     <div class="svg" role="presentation">
         <div class="grails-logo-container">
             <asset:image src="socrative-logo-hires.jpg" class="grails-logo"/>
         </div>
     </div>
     <div class="image" role="presentation">
+
+        %{-- Working Picture--}%
+
         <div class="grails-image-container">
             <asset:image src="Wprking_Image.jpg" class="socrative_image"/>
         </div>
 
     </div>
+
 
     <div id="content" role="main">
         <section class="row colset-2-its">
