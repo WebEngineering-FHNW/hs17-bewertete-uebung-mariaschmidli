@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <meta name="layout" content="${layout}">
+  <meta name="layout" content="main">
 </head>
 
 <body>

@@ -77,10 +77,12 @@
 
 
                 <ul>
+
                 <g:link controller="lecture" action="lecture/index" class="btn-lg">Lecture</g:link>
                 <g:link controller="students" action="students/index" class="btn-lg">Students</g:link>
-                </ul>
 
+
+<               <ul/>
 
 
                   %{--<ul>--}%
