@@ -3445,13 +3445,20 @@ fieldset[disabled] .btn-link:focus {
   margin-top: 50px;
   margin-left: 10%;
   margin-right: 10%;
-
-
-
-
-
-
 }
+
+
+.answer-letter > span {
+  border: 1px solid;
+  float: left;
+  font-weight: 600;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  width: 40px;
+}
+
+
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 5px 10px;

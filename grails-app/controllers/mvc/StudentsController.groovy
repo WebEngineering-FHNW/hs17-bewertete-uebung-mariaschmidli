@@ -1,8 +1,9 @@
 package mvc
 
 class StudentsController {
+    static scaffold = Questionnair
 
-    def index() {
+    def Answerpage1() {
 
 
     }

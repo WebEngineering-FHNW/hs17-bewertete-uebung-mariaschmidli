@@ -4,7 +4,7 @@ class UrlMappings {
 
     static mappings = {
        // "/"(controller:"lecture")
-        // "/rooms"(resources: "room")
+         "/questionnairs"(resources: "questionnair")
         "/$controller/$action?/$id?(.$format)?"{
             constraints {
                 // apply constraints here

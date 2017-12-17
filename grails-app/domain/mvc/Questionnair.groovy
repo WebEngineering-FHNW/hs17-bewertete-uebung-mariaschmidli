@@ -2,11 +2,11 @@ package mvc
 
 class Questionnair {
 
-    String question
-    String answer
+    String name
+    Questions question
+    Answer answer
 
     static constraints = {
-        question blank: false
-        answer blank:false
+       name maxSize: 30
     }
 }
