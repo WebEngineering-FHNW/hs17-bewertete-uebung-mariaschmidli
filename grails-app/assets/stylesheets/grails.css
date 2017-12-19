@@ -1069,19 +1069,12 @@ html, body, .st-container, .st-pusher, .st-content {
 
 .image{
 
-
     height: 80%;
-
-
-
 }
-
-
-
-
 
 @media screen and (max-width: 767px) {
     .presentations .img.screenshot, .video .metadata {
         float: none;
     }
 }
+

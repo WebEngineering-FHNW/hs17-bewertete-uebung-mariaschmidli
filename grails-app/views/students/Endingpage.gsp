@@ -40,13 +40,13 @@
 
                     <div class="image" role="presentation">
 
-                        %{--Workingplace Picture--}%
+                    %{--Applause Emoji--}%
 
-                        <div class="container_applause">
-                            <asset:image src="Applause.jpg" class="image_applause"/>
-                        </div>
-
+                    <div class="container_emojis">
+                        <asset:image src="Applause.jpg" />
                     </div>
+
+                </div>
 
 
             </g:form>

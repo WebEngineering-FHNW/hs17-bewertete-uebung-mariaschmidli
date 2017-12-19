@@ -67,10 +67,11 @@
 
                 <g:actionSubmit value="Next" action="Endingpage" class="btn-black"/>
 
-                %{--<g:link controller="students" action="Thanks" class="btn-lg btn-black">Submit</g:link>--}%
+
 
             </div>
             </g:form>
+
         </div>
     </body>
 </html>
