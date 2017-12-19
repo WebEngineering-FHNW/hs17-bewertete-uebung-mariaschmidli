@@ -12,6 +12,7 @@
         <h1>Create your questionnaire!</h1>
 
         <ul>
+
           <g:each var="questionnair" in="${questionnairs}">
             <li>${questionnair}</li>
           </g:each>
