@@ -6,7 +6,7 @@ import spock.lang.Specification
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
-@TestFor(QuestionController)
+@TestFor(QuestionnaireController)
 class QuestionControllerSpec extends Specification {
 
     def setup() {
@@ -18,5 +18,13 @@ class QuestionControllerSpec extends Specification {
     void "test something"() {
         expect:"fix me"
             true == false
+    }
+
+    void "Test the home page renders correctly"() {
+        when:"The home page is visited"
+        go '/'
+
+        then:"The title is correct"
+        $('title').text() == "Welcome to Socrative"
     }
 }

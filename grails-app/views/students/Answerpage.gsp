@@ -22,8 +22,6 @@
 
     <g:form name="Send" url="[controller: 'students' ]">
 
-
-
     <div>
 
         %{--Questionnumber--}%

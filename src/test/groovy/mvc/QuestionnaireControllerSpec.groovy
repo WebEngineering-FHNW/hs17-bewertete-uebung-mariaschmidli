@@ -16,7 +16,20 @@ class QuestionnaireControllerSpec extends Specification {
     }
 
     void "test something"() {
-        expect:"fix me"
-            true == false
+        given:
+        save()
+
+        expect:
+        Questionnaire.count() == 1
     }
+
+    void "Test the home page renders correctly"() {
+        when:"The home page is visited"
+        go '/'
+
+        then:"The title is correct"
+        $('title').text() == "Welcome to Socrative"
+    }
+
+
 }

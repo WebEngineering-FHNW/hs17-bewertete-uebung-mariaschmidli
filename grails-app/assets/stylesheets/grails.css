@@ -120,13 +120,13 @@ a.navbar-brand {
     height: 400px;
 }
 
-.svg #band {
+/*.svg #band {
     background-image: url(../img/grails-cupsonly-logo-white.svg);
 }
 
 .no-svg #band {
     background-image: url(../img/groovy-logo-white.png);
-}
+}*/
 
 
 @media (max-width: 1010px) {
@@ -239,7 +239,7 @@ a.navbar-brand {
 
 @media (max-width: 1010px) {
     .event-logo {
-        height: ;
+
     }
 
 }
