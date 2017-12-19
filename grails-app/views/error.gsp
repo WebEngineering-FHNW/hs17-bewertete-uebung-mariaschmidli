@@ -15,6 +15,9 @@
             </g:elseif>
             <g:else>
                 <ul class="errors">
+
+                    %{--Error message--}%
+
                     <li>An error has occurred</li>
                     <li>Exception: ${exception}</li>
                     <li>Message: ${message}</li>

@@ -7,52 +7,40 @@
 
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
-<head>
-    <meta name="layout" content="main"/>
-    <title>Welcome to Socrative</title>
+    <head>
+        <meta name="layout" content="main"/>
+            <title>Welcome to Socrative</title>
 
-    %{--Favicon Adjustment--}%
+            %{--Favicon Adjustment--}%
 
-    <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
+            <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
+    </head>
 
-</head>
+    <body>
+        <div id="main-content" class="container">
+            <div>
+                <g:form name="Send" url="[controller: 'students' ]">
 
-<body>
-<div id="main-content" class="container">
-    <div>
-    <g:form name="Send" url="[controller: 'students' ]">
+                    %{--Questionnumber--}%
 
-        %{--Questionnumber--}%
+                    <div class="quiz-progress-container">
+                    <span class="key-alttext ">1/3</span>
+                    </div>
+            </div>
+                <div class="question-container">
+                    <div class="question-header">
 
-        <div class="quiz-progress-container">
-            <span class="key-alttext ">1/3</span>
+                        %{--Question--}%
+
+                        <h1 class="h1">
+                            Thank you for your particiption!!
+                        </h1>
+                    </div>
+                </div>
+
+            </g:form>
         </div>
-    </div>
-    <div class="question-container">
-        <div class="question-header">
-
-            %{--Question--}%
-
-            <h1 class="h1">
-                Thank you for your particiption!!
-            </h1>
-        </div>
-    </div>
 
 
-
-    <div class="nav-container">
-
-        %{--Link to next question--}%
-
-        %{--<g:actionSubmit value="End" action="report" class="btn-black"/>--}%
-
-        %{--<g:link controller="students" action="index" class="btn-lg btn-black">End</g:link>--}%
-    </div>
-
-    </g:form>
-</div>
-
-
-</body>
+    </body>
 </html>

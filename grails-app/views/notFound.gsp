@@ -7,6 +7,9 @@
     </head>
     <body>
         <ul class="errors">
+
+            %{--Not found message --}%
+
             <li>Error: Page Not Found (404)</li>
             <li>Path: ${request.forwardURI}</li>
         </ul>

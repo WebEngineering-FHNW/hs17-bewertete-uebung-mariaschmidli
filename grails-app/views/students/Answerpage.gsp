@@ -17,86 +17,84 @@
 
 </head>
 
-<body>
-<div id="main-content" class="container">
+    <body>
+        <div id="main-content" class="container">
 
-    <g:form name="Send" url="[controller: 'students' ]">
+            <g:form name="Send" url="[controller: 'students' ]">
 
-    <div>
+                <div>
 
-        %{--Questionnumber--}%
+                    %{--Questionnumber--}%
 
-        <div class=" quiz-progress-container">
-            <span class="key-alttext ">1/3</span>
-        </div>
-    </div>
+                    <div class=" quiz-progress-container">
+                        <span class="key-alttext ">1/3</span>
+                    </div>
+                </div>
 
-    <div class="question-container">
-        <div class="question-header">
+                <div class="question-container">
+                    <div class="question-header">
 
-            %{--Question--}%
+                            %{--Question--}%
 
-            <h1 class="h1">
-                Who was the first man to fly around the earth with a spaceship?
-            </h1>
-        </div>
-    </div>
+                            <h1 class="h1">
+                                Who was the first man to fly around the earth with a spaceship?
+                            </h1>
+                    </div>
+                </div>
 
-    <div class="answer-container">
-        <div class="answer-option">
+            <div class="answer-container">
+                <div class="answer-option">
 
-            %{--Answer1--}%
+                    %{--Answer1--}%
 
-            <span class="answer-letter">A</span>
-            <div class="answer-option-text">
+                    <span class="answer-letter">A</span>
+                        <div class="answer-option-text">
 
-                <input type="radio" name="Choose" value="Lukas" id="ll" /> <label for="ll" >Lukas</label>
+                            <input type="radio" name="Choose" value="Lukas" id="answer1.1" /> <label for="answer1.1" >Lukas</label>
 
+
+                        </div>
+                </div>
+            </div>
+
+            <div class="answer-container">
+                <div class="answer-option">
+
+                    %{--Answer2--}%
+
+                    <span class="answer-letter">B</span>
+                        <div class="answer-option-text">
+
+                            <input type="radio" name="Choose" value="Gagarin" id="answer1.2" /> <label for="answer1.2" >Gagarin</label>
+
+                        </div>
+                </div>
+            </div>
+
+            <div class="answer-container">
+                <div class="answer-option">
+
+                    %{--Answer3--}%
+
+                    <span class="answer-letter">C</span>
+                    <div class="answer-option-text">
+                        <input type="radio" name="Choose" value="Solonge" id="answer1.3" /> <label for="answer1.3"  >Solonge</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-container">
+
+                %{--Link to next question--}%
+
+                <g:actionSubmit value="Next" action="Answerpage2" class="btn-black"/>
+
+
+                %{--<g:link controller="students" action="answerpage2" class="btn-lg btn-black">Next</g:link>--}%
 
             </div>
+            </g:form>
+
         </div>
-    </div>
-
-    <div class="answer-container">
-        <div class="answer-option">
-
-            %{--Answer2--}%
-
-            <span class="answer-letter">B</span>
-            <div class="answer-option-text">
-
-                <input type="radio" name="Choose" value="Gagarin" id="gg" /> <label for="gg" >Gagarin</label>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="answer-container">
-        <div class="answer-option">
-
-            %{--Answer3--}%
-
-            <span class="answer-letter">C</span>
-            <div class="answer-option-text">
-                <input type="radio" name="Choose" value="Solonge" id="ss" /> <label for="ss" >Solonge</label>
-            </div>
-        </div>
-    </div>
-
-    <div class="nav-container">
-
-        %{--Link to next question--}%
-
-        <g:actionSubmit value="Next" action="Answerpage2" class="btn-black"/>
-
-
-        %{--<g:link controller="students" action="answerpage2" class="btn-lg btn-black">Next</g:link>--}%
-
-    </div>
-    </g:form>
-
-</div>
-
-
-</body>
+    </body>
 </html>
