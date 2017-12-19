@@ -21,11 +21,6 @@
             <div>
                 <g:form name="Send" url="[controller: 'students' ]">
 
-                    %{--Questionnumber--}%
-
-                    <div class="quiz-progress-container">
-                    <span class="key-alttext ">1/3</span>
-                    </div>
             </div>
                 <div class="question-container">
                     <div class="question-header">

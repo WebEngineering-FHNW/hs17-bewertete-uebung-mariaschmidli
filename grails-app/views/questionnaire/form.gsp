@@ -22,18 +22,68 @@
                  <label>Name of Questionnaire: </label>
                     <g:textField name="Name"/><br/>
                 </div>
-                <div class="label-questionnnaire">
-                    <label>Question: </label>
-                    <g:textField name="Question"/><br/>
+
+                %{--First Question--}%
+
+                <div class="label-questionnnaire question">
+                    <label>1. Question: </label>
+                        <g:textField name="Question"/><br/>
                 </div>
+
                 <div class="label-questionnnaire">
                     <label>Answer 1: </label>
                     <g:textField name="Answer 1"/><br/>
                 </div>
+
                 <div class="label-questionnnaire">
                     <label>Answer 2: </label>
                     <g:textField name="Answer 2"/><br/>
                 </div>
+
+                <div class="label-questionnnaire">
+                    <label>Answer 3: </label>
+                    <g:textField name="Answer 3"/><br/>
+                </div>
+
+                %{--Second Question--}%
+
+                <div class="label-questionnnaire question">
+                    <label>2. Question: </label>
+                    <g:textField name="Question"/><br/>
+                </div>
+
+                <div class="label-questionnnaire">
+                    <label>Answer 1: </label>
+                    <g:textField name="Answer 1"/><br/>
+                </div>
+
+                <div class="label-questionnnaire">
+                    <label>Answer 2: </label>
+                    <g:textField name="Answer 2"/><br/>
+                </div>
+
+                <div class="label-questionnnaire">
+                    <label>Answer 3: </label>
+                    <g:textField name="Answer 3"/><br/>
+                </div>
+
+                %{--Third Question--}%
+
+                <div class="label-questionnnaire question">
+                    <label>3. Question: </label>
+                    <g:textField name="Question"/><br/>
+                </div>
+
+                <div class="label-questionnnaire">
+                    <label>Answer 1: </label>
+                    <g:textField name="Answer 1"/><br/>
+                </div>
+
+                <div class="label-questionnnaire">
+                    <label>Answer 2: </label>
+                    <g:textField name="Answer 2"/><br/>
+                </div>
+
                 <div class="label-questionnnaire">
                     <label>Answer 3: </label>
                     <g:textField name="Answer 3"/><br/>
