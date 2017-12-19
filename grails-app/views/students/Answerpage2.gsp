@@ -47,7 +47,7 @@
             <div class="answer-option-text">
                 %{--<textarea type="text" name="" value="" class="text-input"></textarea>--}%
                 <label for="text" >My Answer:</label>
-                <textarea type="radio" name="" value="" id="text"></textarea>
+                <textarea type="radio" name="" value="" id="text" required maxlength="250"></textarea>
 
             </div>
         </div>
