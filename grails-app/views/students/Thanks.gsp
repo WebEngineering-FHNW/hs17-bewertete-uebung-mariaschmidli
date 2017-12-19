@@ -18,8 +18,9 @@
 </head>
 
 <body>
-<div id="main-content">
+<div id="main-content" class="container">
     <div>
+    <g:form name="Send" url="[controller: 'students' ]">
 
         %{--Questionnumber--}%
 
@@ -44,8 +45,12 @@
 
         %{--Link to next question--}%
 
-        <g:link controller="students" action="index" class="btn-lg btn-black">End</g:link>
+        <g:actionSubmit value="End" action="report" class="btn-black"/>
+
+        %{--<g:link controller="students" action="index" class="btn-lg btn-black">End</g:link>--}%
     </div>
+
+    </g:form>
 </div>
 
 

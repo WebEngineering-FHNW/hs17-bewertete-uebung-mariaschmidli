@@ -20,6 +20,8 @@
 <body>
 <div id="main-content" class="container">
 
+    <g:form name="Send" url="[controller: 'students' ]">
+
 
 
     <div>
@@ -49,7 +51,9 @@
 
             <span class="answer-letter">A</span>
             <div class="answer-option-text">
-                <input type="radio" id="ll" name="Choose" value="Lukas"> <label for="ll"> Lukas</label></input>
+
+                <input type="radio" name="Choose" value="Lukas" id="ll" /> <label for="ll" >Lukas</label>
+
 
             </div>
         </div>
@@ -62,7 +66,9 @@
 
             <span class="answer-letter">B</span>
             <div class="answer-option-text">
-                <input type="radio" id="gg" name="Choose" value="Gagarin"> <label for="gg"> Gagarin</label></input>
+
+                <input type="radio" name="Choose" value="Gagarin" id="gg" /> <label for="gg" >Gagarin</label>
+
             </div>
         </div>
     </div>
@@ -74,7 +80,7 @@
 
             <span class="answer-letter">C</span>
             <div class="answer-option-text">
-                <input type="radio" id="ss" name="Choose" value="Solonge"> <label for="ss"> Solonge</label></input>
+                <input type="radio" name="Choose" value="Solonge" id="ss" /> <label for="ss" >Solonge</label>
             </div>
         </div>
     </div>
@@ -83,8 +89,13 @@
 
         %{--Link to next question--}%
 
-        <g:link controller="students" action="answerpage2" class="btn-lg btn-black">Next</g:link>
+        <g:actionSubmit value="Next" action="Answerpage2" class="btn-black"/>
+
+
+        %{--<g:link controller="students" action="answerpage2" class="btn-lg btn-black">Next</g:link>--}%
+
     </div>
+    </g:form>
 
 </div>
 

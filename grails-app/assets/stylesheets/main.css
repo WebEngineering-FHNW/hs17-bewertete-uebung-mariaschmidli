@@ -620,4 +620,10 @@ image{
      display: block;
      margin-top: 20px;
      font-weight: bold;
+
+
+
  }
+.text-input{
+    width: 80%;
+}

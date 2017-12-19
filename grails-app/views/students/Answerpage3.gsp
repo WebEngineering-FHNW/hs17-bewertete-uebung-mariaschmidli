@@ -20,6 +20,7 @@
 <body>
 <div id="main-content" class="container">
     <div>
+    <g:form name="Send" url="[controller: 'students' ]">
 
         %{--Questionnumber--}%
 
@@ -33,7 +34,7 @@
             %{--Question--}%
 
             <h1 class="h1">
-            What color is cobalt?
+            Was Alan Shepard the first American in space?
             </h1>
         </div>
     </div>
@@ -44,7 +45,7 @@
 
             <span class="answer-letter">A</span>
             <div class="answer-option-text">
-                <input type="radio" id="rr" name="Choose" value="Red"> <label for="rr"> Red</label></input>
+                <input type="radio" name="Choose" value="Yes" id="rr" /> <label for="rr" >Yes</label>
             </div>
         </div>
     </div>
@@ -55,27 +56,21 @@
 
             <span class="answer-letter">B</span>
             <div class="answer-option-text">
-                <input type="radio" id="bb" name="Choose" value="Blue"> <label for="bb"> Blue</label></input>
+                <input type="radio" name="Choose" value="No" id="bb" /> <label for="bb" >No</label>
             </div>
         </div>
     </div>
-    <div class="answer-container">
-        <div class="answer-option">
 
-            %{--Answer3--}%
-
-            <span class="answer-letter">C</span>
-            <div class="answer-option-text">
-                <input type="radio" id="gg" name="Choose" value="Gray"> <label for="gg"> Gray</label></input>
-            </div>
-        </div>
-    </div>
     <div class="nav-container">
 
         %{--Link to next question--}%
 
-        <g:link controller="students" action="Thanks" class="btn-lg btn-black">Submit</g:link>
+        <g:actionSubmit value="Next" action="Thanks" class="btn-black"/>
+
+        %{--<g:link controller="students" action="Thanks" class="btn-lg btn-black">Submit</g:link>--}%
+
     </div>
+    </g:form>
 </div>
 
 

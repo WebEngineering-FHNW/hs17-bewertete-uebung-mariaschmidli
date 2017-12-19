@@ -19,6 +19,7 @@
 
 <body>
 <div id="main-content" class="container">
+    <g:form name="Send" url="[controller: 'students' ]">
 
     <div>
 
@@ -34,7 +35,7 @@
             %{--Question--}%
 
             <h1 class="h1">
-            What is the organ that is affected when one is suffering from hepatitis?
+            Explain how the liver is affected when one is suffering from hepatitis?
             </h1>
         </div>
     </div>
@@ -43,40 +44,25 @@
 
             %{--Answer1--}%
 
-            <span class="answer-letter">A</span>
             <div class="answer-option-text">
-                <input type="radio" id="lll" name="Choose" value="Liver"> <label for="lll"> Liver</label></input>
+                %{--<textarea type="text" name="" value="" class="text-input"></textarea>--}%
+                <label for="text" >My Answer:</label>
+                <textarea type="radio" name="" value="" id="text"></textarea>
+
             </div>
         </div>
     </div>
-    <div class="answer-container">
-        <div class="answer-option">
 
-            %{--Answer2--}%
-
-            <span class="answer-letter">B</span>
-            <div class="answer-option-text">
-                <input type="radio" id="hh" name="Choose" value="Heart"> <label for="hh"> Heart</label></input>
-            </div>
-        </div>
-    </div>
-    <div class="answer-container">
-        <div class="answer-option">
-
-            %{--Answer3--}%
-
-            <span class="answer-letter">C</span>
-            <div class="answer-option-text">
-                <input type="radio" id="llll" name="Choose" value="Lung"> <label for="llll"> Lung</label></input>
-            </div>
-        </div>
-    </div>
     <div class="nav-container">
 
         %{--Link to next question--}%
 
-        <g:link controller="students" action="Answerpage3" class="btn-lg btn-black">Next</g:link>
+        <g:actionSubmit value="Next" action="Answerpage3" class="btn-black"/>
+
+      %{--  <g:link controller="students" action="Answerpage3" class="btn-lg btn-black">Next</g:link>--}%
+
     </div>
+    </g:form>
 </div>
 
 
