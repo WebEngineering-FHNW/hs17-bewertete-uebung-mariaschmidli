@@ -19,7 +19,7 @@ class StudentsController {
 
     }
 
-    def Thanks() {
+    def Endingpage() {
 
 
     }

@@ -56,8 +56,8 @@
             %{--Workingplace Picture--}%
 
             <div class="grails-image-container">
-                <asset:image src="Wprking_Image.jpg" class="socrative_image"/>
-            </div>
+        <asset:image src="Working_Image.jpg" class="socrative_image"/>
+        </div>
 
         </div>
 

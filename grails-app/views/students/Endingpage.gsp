@@ -38,6 +38,17 @@
                     </div>
                 </div>
 
+                    <div class="image" role="presentation">
+
+                        %{--Workingplace Picture--}%
+
+                        <div class="container_applause">
+                            <asset:image src="Applause.jpg" class="image_applause"/>
+                        </div>
+
+                    </div>
+
+
             </g:form>
         </div>
 

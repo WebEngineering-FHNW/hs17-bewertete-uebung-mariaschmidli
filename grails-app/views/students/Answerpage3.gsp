@@ -65,7 +65,7 @@
 
                 %{--Link to next question--}%
 
-                <g:actionSubmit value="Next" action="Thanks" class="btn-black"/>
+                <g:actionSubmit value="Next" action="Endingpage" class="btn-black"/>
 
                 %{--<g:link controller="students" action="Thanks" class="btn-lg btn-black">Submit</g:link>--}%
 
