@@ -49,7 +49,8 @@
 
             <span class="answer-letter">A</span>
             <div class="answer-option-text">
-                <pre>Lukas</pre>
+                <input type="radio" id="ll" name="Choose" value="Lukas"> <label for="ll"> Lukas</label></input>
+
             </div>
         </div>
     </div>
@@ -61,7 +62,7 @@
 
             <span class="answer-letter">B</span>
             <div class="answer-option-text">
-                <pre>Gagarin</pre>
+                <input type="radio" id="gg" name="Choose" value="Gagarin"> <label for="gg"> Gagarin</label></input>
             </div>
         </div>
     </div>
@@ -73,7 +74,7 @@
 
             <span class="answer-letter">C</span>
             <div class="answer-option-text">
-                <pre>Solonge</pre>
+                <input type="radio" id="ss" name="Choose" value="Solonge"> <label for="ss"> Solonge</label></input>
             </div>
         </div>
     </div>

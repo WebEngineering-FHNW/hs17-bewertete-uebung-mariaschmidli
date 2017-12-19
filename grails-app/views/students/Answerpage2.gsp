@@ -45,7 +45,7 @@
 
             <span class="answer-letter">A</span>
             <div class="answer-option-text">
-                <pre>Liver</pre>
+                <input type="radio" id="lll" name="Choose" value="Liver"> <label for="lll"> Liver</label></input>
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@
 
             <span class="answer-letter">B</span>
             <div class="answer-option-text">
-                <pre>Heart</pre>
+                <input type="radio" id="hh" name="Choose" value="Heart"> <label for="hh"> Heart</label></input>
             </div>
         </div>
     </div>
@@ -67,7 +67,7 @@
 
             <span class="answer-letter">C</span>
             <div class="answer-option-text">
-                <pre>Lung</pre>
+                <input type="radio" id="llll" name="Choose" value="Lung"> <label for="llll"> Lung</label></input>
             </div>
         </div>
     </div>
