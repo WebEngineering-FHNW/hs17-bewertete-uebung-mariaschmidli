@@ -3442,14 +3442,28 @@ fieldset[disabled] .btn-link:focus {
   font-size: 30px;
   line-height: 1.3333333;
   border-radius: 6px;
+
+
+
+
+}
+
+.btn-white{
+  color:white;
   margin-top: 50px;
   margin-left: 10%;
   margin-right: 5%;
+}
+
+.btn-black{
+  color:black;
+  margin-top: 50px;
+  display: block;
 
 }
 
 
-.answer-letter > span {
+.answer-letter span {
   border: 1px solid;
   float: left;
   font-weight: 600;

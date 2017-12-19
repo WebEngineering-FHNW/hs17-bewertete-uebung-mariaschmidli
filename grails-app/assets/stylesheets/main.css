@@ -598,3 +598,26 @@ image{
     align:center;
 
 }
+
+.answer-letter span {
+    border: 1px solid;
+    float: left;
+    font-weight: 600;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    width: 40px;
+}
+
+.key-alttext{
+    margin-top: 30px;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+ .answer-letter{
+     display: block;
+     margin-top: 20px;
+     font-weight: bold;
+ }

@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: mariaschmidli
-  Date: 16.12.17
-  Time: 22:56
+  Date: 17.12.17
+  Time: 17:33
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" %>
@@ -20,28 +20,24 @@
 <body>
 <div id="main-content" class="container">
 
-
-
     <div>
 
         %{--Questionnumber--}%
 
-        <div class=" quiz-progress-container">
-            <span class="key-alttext ">1/3</span>
+        <div class="quiz-progress-container">
+            <span class="key-alttext ">2/3</span>
         </div>
     </div>
-
     <div class="question-container">
         <div class="question-header">
 
             %{--Question--}%
 
             <h1 class="h1">
-                Who was the first man to fly around the earth with a spaceship?
+            What is the organ that is affected when one is suffering from hepatitis?
             </h1>
         </div>
     </div>
-
     <div class="answer-container">
         <div class="answer-option">
 
@@ -49,11 +45,10 @@
 
             <span class="answer-letter">A</span>
             <div class="answer-option-text">
-                <pre>Lukas</pre>
+                <pre>Liver</pre>
             </div>
         </div>
     </div>
-
     <div class="answer-container">
         <div class="answer-option">
 
@@ -61,11 +56,10 @@
 
             <span class="answer-letter">B</span>
             <div class="answer-option-text">
-                <pre>Gagarin</pre>
+                <pre>Heart</pre>
             </div>
         </div>
     </div>
-
     <div class="answer-container">
         <div class="answer-option">
 
@@ -73,20 +67,17 @@
 
             <span class="answer-letter">C</span>
             <div class="answer-option-text">
-                <pre>Solonge</pre>
+                <pre>Lung</pre>
             </div>
         </div>
     </div>
-
     <div class="nav-container">
 
         %{--Link to next question--}%
 
-        <g:link controller="students" action="answerpage2" class="btn-lg btn-black">Next</g:link>
+        <g:link controller="students" action="Answerpage3" class="btn-lg btn-black">Next</g:link>
     </div>
-
 </div>
-
 
 
 </body>
