@@ -29,4 +29,10 @@ class StudentsController {
 
     }
 
+    def save(){
+
+    }
+
+
+
 }

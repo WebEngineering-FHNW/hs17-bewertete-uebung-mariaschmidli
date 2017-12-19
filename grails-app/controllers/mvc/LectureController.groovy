@@ -1,7 +1,7 @@
 package mvc
 
 class LectureController {
-    static scaffold = Questionnair
+    static scaffold = Questionnaire
 
     def questionnair() {
 

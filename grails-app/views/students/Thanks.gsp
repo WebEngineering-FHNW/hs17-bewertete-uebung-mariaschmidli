@@ -45,7 +45,7 @@
 
         %{--Link to next question--}%
 
-        <g:actionSubmit value="End" action="report" class="btn-black"/>
+        %{--<g:actionSubmit value="End" action="report" class="btn-black"/>--}%
 
         %{--<g:link controller="students" action="index" class="btn-lg btn-black">End</g:link>--}%
     </div>

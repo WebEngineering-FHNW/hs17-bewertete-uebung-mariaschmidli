@@ -80,7 +80,7 @@
             "Report" is a summary of how often which question got choosen--}%
 
             <ul class="ul-controller">
-                <g:link controller="lecture" action="questionnair" class="btn-lg btn-white" >Lecture</g:link>
+                <g:link controller="questionnaire" action="form" class="btn-lg btn-white" >Lecture</g:link>
                 <g:link controller="students" action="Answerpage" class="btn-lg btn-white">Students</g:link>
                 <g:link controller="report" action="report" class="btn-lg btn-white">Report</g:link>
             </ul>
