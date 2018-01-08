@@ -29,4 +29,17 @@ I'm particular proud of:
 
 ## Project grading 
 
-< to be filled by lecturer>
+Description html is given but contained html is invalid (two bodies).
+Good attempt to use semantic tags.
+The application did not start. After fixing bootstrap, it started but contains mainly
+fake functionality.
+
+"Working" functionlity is mainly that of a static web site.
+
+Commit log is ok.
+Tests are mainly fake.
+
+I award an extra point for the nice styling of the landing page.
+
+Total Grade: 3.7
+
