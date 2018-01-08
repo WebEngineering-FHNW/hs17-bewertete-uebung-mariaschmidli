@@ -16,6 +16,7 @@ class BootStrap {
         def question1 = new Questions(text: "Who was the first man to fly around the earth " +
                 "with a spaceship?", answer: answer1)
 
+	    // it appears you forgot to save the question
 
     }
 

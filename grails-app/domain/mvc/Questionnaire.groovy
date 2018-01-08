@@ -3,8 +3,8 @@ package mvc
 class Questionnaire {
 
     String name
-    String question
-    String answer1
+    String question // a questionnaire has only one question?
+    String answer1  // .. with a fixed set of three answers?
     String answer2
     String answer3
 

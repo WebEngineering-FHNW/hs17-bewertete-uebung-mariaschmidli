@@ -32,7 +32,7 @@
 
                 <div class="label-questionnnaire">
                     <label>Answer 1: </label>
-                    <g:textField name="Answer 1"/><br/>
+                    <g:textField name="Answer 1"/><br/> <!-- name must not contain blanks !! -->
                 </div>
 
                 <div class="label-questionnnaire">
